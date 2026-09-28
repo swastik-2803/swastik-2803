@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 96" width="1600" height="96" role="img" aria-label="Animated counter-current heat exchanger">
+<defs>
+<linearGradient id="hot" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1600" y2="0"><stop offset="0" stop-color="#F07A2E"/><stop offset="1" stop-color="#8A97A5"/></linearGradient>
+<linearGradient id="cold" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1600" y2="0"><stop offset="0" stop-color="#8A97A5"/><stop offset="1" stop-color="#1FB5DC"/></linearGradient>
+<linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1600" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".06" stop-color="#fff"/><stop offset=".94" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="96"><rect width="1600" height="96" fill="url(#fade)"/></mask>
+<style>
+.h{fill:none;stroke:url(#hot);stroke-width:2.2;stroke-linecap:round;animation:r linear infinite}
+.c{fill:none;stroke:url(#cold);stroke-width:2.2;stroke-linecap:round;animation:l linear infinite}
+.w{stroke:#8A97A5;stroke-width:1.5;opacity:.55}
+.b{stroke:#8A97A5;stroke-width:1;opacity:.3}
+.q{fill:#D9A070;opacity:0;animation:q 2.4s ease-in infinite}
+@keyframes r{to{stroke-dashoffset:-120}}
+@keyframes l{to{stroke-dashoffset:120}}
+@keyframes q{0%{transform:translateY(0);opacity:0}25%{opacity:.85}100%{transform:translateY(14px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.h,.c,.q{animation:none}.q{opacity:.5}}
+</style>
+</defs>
+<g mask="url(#m)">
+<path class="b" d="M0 6H1600M0 90H1600"/>
+<path class="w" d="M0 48H1600"/>
+<path class="h" style="animation-duration:3.4s" stroke-dasharray="14 46" d="M0 14H1600"/>
+<path class="h" style="animation-duration:2.5s" stroke-dasharray="22 38" d="M0 22H1600"/>
+<path class="h" style="animation-duration:2.2s" stroke-dasharray="18 42" d="M0 30H1600"/>
+<path class="h" style="animation-duration:3.1s" stroke-dasharray="10 50" d="M0 38H1600"/>
+<path class="c" style="animation-duration:3.3s" stroke-dasharray="12 48" d="M0 58H1600"/>
+<path class="c" style="animation-duration:2.4s" stroke-dasharray="20 40" d="M0 66H1600"/>
+<path class="c" style="animation-duration:2.3s" stroke-dasharray="16 44" d="M0 74H1600"/>
+<path class="c" style="animation-duration:3.2s" stroke-dasharray="10 50" d="M0 82H1600"/>
+<circle class="q" cx="280" cy="43" r="2" style="animation-delay:-0.36s"/>
+<circle class="q" cx="773" cy="43" r="2" style="animation-delay:-0.17s"/>
+<circle class="q" cx="573" cy="43" r="2" style="animation-delay:-0.88s"/>
+<circle class="q" cx="75" cy="43" r="2" style="animation-delay:-1.22s"/>
+<circle class="q" cx="69" cy="43" r="2" style="animation-delay:-1.04s"/>
+<circle class="q" cx="79" cy="43" r="2" style="animation-delay:-0.22s"/>
+<circle class="q" cx="407" cy="43" r="2" style="animation-delay:-1.98s"/>
+<circle class="q" cx="106" cy="43" r="2" style="animation-delay:-0.54s"/>
+<circle class="q" cx="730" cy="43" r="2" style="animation-delay:-2.27s"/>
+<circle class="q" cx="642" cy="43" r="2" style="animation-delay:-0.95s"/>
+<circle class="q" cx="1477" cy="43" r="2" style="animation-delay:-0.11s"/>
+<circle class="q" cx="1199" cy="43" r="2" style="animation-delay:-0.7s"/>
+<circle class="q" cx="118" cy="43" r="2" style="animation-delay:-0.28s"/>
+<circle class="q" cx="263" cy="43" r="2" style="animation-delay:-1.96s"/>
+<circle class="q" cx="144" cy="43" r="2" style="animation-delay:-1.4s"/>
+<circle class="q" cx="751" cy="43" r="2" style="animation-delay:-0.89s"/>
+<circle class="q" cx="593" cy="43" r="2" style="animation-delay:-0.15s"/>
+<circle class="q" cx="76" cy="43" r="2" style="animation-delay:-0.49s"/>
+<circle class="q" cx="828" cy="43" r="2" style="animation-delay:-1.03s"/>
+<circle class="q" cx="269" cy="43" r="2" style="animation-delay:-1.41s"/>
+<circle class="q" cx="447" cy="43" r="2" style="animation-delay:-0.72s"/>
+<circle class="q" cx="1059" cy="43" r="2" style="animation-delay:-1.68s"/>
+<circle class="q" cx="197" cy="43" r="2" style="animation-delay:-1.38s"/>
+<circle class="q" cx="556" cy="43" r="2" style="animation-delay:-2.1s"/>
+<circle class="q" cx="924" cy="43" r="2" style="animation-delay:-0.69s"/>
+<circle class="q" cx="1486" cy="43" r="2" style="animation-delay:-0.28s"/>
+</g>
+</svg>
